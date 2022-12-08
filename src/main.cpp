@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
     InitLauncher(argc,argv);
 
     try {
-        LegitimacyCheck();
+        //LegitimacyCheck();
     }catch (std::exception& e){
         fatal("Main 1 : " + std::string(e.what()));
     }
